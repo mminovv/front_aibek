@@ -1,0 +1,77 @@
+:root { 
+  --athens-gray: #efeff3;
+  --black-haze: #f5f6f8;
+  --fuscous-gray: #555555;
+  --granite-gray: #666666;
+  --label-colordarkprimary: #ffffff;
+  --label-colorlightprimary: #000000;
+  --orange: #ff6611;
+  --pink-swan: #b5b6b8;
+  --thunder: #33292d;
+  --white: #ffffff03;
+ 
+  --font-size-l: 28px;
+  --font-size-m: 17px;
+  --font-size-s: 14.7px;
+  --font-size-xl: 34px;
+  --font-size-xs: 14px;
+  --font-size-xxl: 48px;
+  --font-size-xxxl: 64px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+}
+.mobileh2 {
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.34px;
+}
+
+.mobileh3 {
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.28px;
+}
+
+.webh1 {
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.webh2 {
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.inter-medium-white-17px {
+  color: var(--label-colordarkprimary);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-normal-granite-gray-17px {
+  color: var(--granite-gray);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.inter-medium-white-14px {
+  color: var(--label-colordarkprimary);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
